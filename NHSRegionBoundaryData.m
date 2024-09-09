@@ -10,9 +10,8 @@ NHSRegions = <|
 4 -> "Midlands", 
 5 -> "North East and Yorkshire", 
 6 -> "East of England", 
-7 -> "North West"|>
+7 -> "North West"|>;
 geometryAssoc = AssociationThread[Values[NHSRegions], Values[polygonAssoc]];
-
 plotData = KeyValueMap[
    {name, geometry} |-> (
      GeoGroup[geometry] -> assoc[name]

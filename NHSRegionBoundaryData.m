@@ -1,3 +1,6 @@
+(* Download data as a .geojson file from this site: 
+https://www.data.gov.uk/dataset/3664f211-2655-45e1-9a9b-e21d5b76ba6c/nhs-england-regions-january-2024-en-bgc*)
+
 importNHSRegionData[]:= Import["NHS_England_Regions_January_2024_EN_BGC_2411870618491533064.geojson", "Data"]
 
 NHSRegionBoundaryData[geoData_, assoc_]:= Module[{polygonAssoc, NHSRegions, geometryAssoc, plotData},
@@ -24,18 +27,18 @@ plotData = KeyValueMap[
 (* Example usage. *)
 
 geoData = importNHSRegionData[];
-sevenRegions = <|
-   "East of England" -> 1,
-   "Midlands" -> 2,
-   "South West" -> 3,
-   "South East" -> 4,
-   "North East and Yorkshire" -> 5,
-   "North West" -> 6,
-   "London" -> 7
+regionData = <|
+   "East of England" -> RandomReal[],
+   "Midlands" -> RandomReal[],
+   "South West" -> RandomReal[],
+   "South East" -> RandomReal[],
+   "North East and Yorkshire" -> RandomReal[],
+   "North West" -> RandomReal[],
+   "London" -> RandomReal[]
    |>;
 
 GeoRegionValuePlot[
-   NHSRegionBoundaryData[geoData, sevenRegions],
+   NHSRegionBoundaryData[geoData, regionData],
    GeoRange -> 
   Entity["AdministrativeDivision", {"England", "UnitedKingdom"}],
    PlotLegends -> BarLegend[Automatic, LegendLabel -> "Label"]

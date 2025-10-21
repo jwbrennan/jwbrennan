@@ -5,13 +5,12 @@
 I took an interest in programming while studying astrophysics at the University of St Andrews.
 My Master's thesis was related to gravitational microlensing, specifically the extreme low-mass limits of what we might able to detect with next-generation ELTs by exploiting the finite-source effect for sources like white dwarfs. My supervisor was Dr. Martin Dominik.
 
-- 🌍  I'm based in Oxford
+- 🌍  I'm based in Oxfordshire, UK
 - ✉️  You can contact me at [josephb@wolfram.com](mailto:josephb@wolfram.com)
-- 🧠  I'm learning Wolfram Language
 
 ### Skills
 
-[![My Skills](https://skillicons.dev/icons?i=aws,bitbucket,docker,git,jquery,py,vscode,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,bitbucket,docker,git,jquery,py,sqlite,vscode,)](https://skillicons.dev)
 
 ### Socials
 

@@ -15,7 +15,7 @@ My Master's thesis was related to gravitational microlensing, specifically the e
 ### Socials
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/jbren1" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/jbren1" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
   </a>
   <a href="https://x.com/TheDiractionary" rel="nofollow">

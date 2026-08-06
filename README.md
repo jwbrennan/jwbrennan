@@ -10,7 +10,7 @@ My thesis was related to gravitational microlensing, specifically the extreme lo
 
 ### Skills
 
-[![My Skills](https://skillicons.dev/icons?i=aws,bitbucket,cloudflare,docker,firebase,fortran,git,jquery,latex,notion,obsidian,py,sqlite,vscode,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,bitbucket,cloudflare,docker,firebase,fortran,git,jquery,latex,mysql,notion,obsidian,py,r,vscode,)](https://skillicons.dev)
 
 ### Socials
 
